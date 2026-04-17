@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    // Declaración de variables de punto flotante para permitir decimales
+    float numero1, numero2, producto;
+
+    printf("--- Calculadora de Multiplicación ---\n");
+
+    // Solicitar el primer número
+    printf("Introduce el primer número: ");
+    scanf("%f", &numero1);
+
+    // Solicitar el segundo número
+    printf("Introduce el segundo número: ");
+    scanf("%f", &numero2);
+
+    // Realizar la operación logica
+    producto = numero1 * numero2;
+
+    // Mostrar el resultado con dos decimales de precisión
+    printf("\nEl resultado de %.2f multiplicado por %.2f es: %.2f\n", numero1, numero2, producto);
+
+    return 0;
+}
