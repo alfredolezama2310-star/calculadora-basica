@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    // Declaración de variables
+    float num1, num2, suma, resta;
+
+    printf("--- Calculadora Básica ---\n");
+
+    // Entrada de datos
+    printf("Introduce el primer número: ");
+    scanf("%f", &num1);
+
+    
+    printf("Introduce el segundo número: ");
+      
+    s/ Operaciones matemáticas
+    suma = num1 + num2;
+    resta = num1 - num2;
+
+    // Salida de resultados
+    // Usamos %.2f para mostrar solo 2 decimales
+    printf("\nResultados:\n");
+    printf("La suma de %.2f + %.2f es: %.2f\n", num1, num2, suma);
+    printf("La resta de %.2f - %.2f es: %.2f\n", num1, num2, resta);
+
+    return 0;
+}canf("%f", &num2);
