@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    float dividendo, divisor, resultado;
+
+    printf("--- Calculadora de División ---\n");
+
+    // Solicitar datos al usuario
+    printf("Introduce el dividendo (número a dividir): ");
+    scanf("%f", &dividendo);
+
+    printf("Introduce el divisor (número que divide): ");
+    scanf("%f", &divisor);
+
+    // Validación: No se puede dividir por cero
+    if (divisor == 0) {
+        printf("\nError: No se puede dividir por cero.\n");
+    } else {
+        resultado = dividendo / divisor;
+        // %.2f limita el resultado a 2 decimales
+        printf("\nEl resultado de %.2f dividido entre %.2f es: %.2f\n", dividendo, divisor, resultado);
+    }
+
+    return 0;
+}
